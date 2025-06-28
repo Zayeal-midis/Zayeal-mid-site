@@ -102,7 +102,7 @@ let currentPlayingButton = null;
 // Sample audio URLs for each soundfont
 const soundfontPreviews = {
   'zayeal-yamaha-c7': './Soundfonts/U.N. Owen (Zayeal Yamaha C7).mp3',
-  'zyrox-keys-2': './Soundfonts/U.N. Owen (ZyroX Keys II).mp3.wav',
+  'zyrox-keys-2': './Soundfonts/U.N. Owen (ZyroX Keys II).mp3',
   'zayeal-piano-1': './Soundfonts/U.N. Owen (Zayeal Piano).mp3',
   'lazeon-keys-2': './Soundfonts/U.N. Owen (Lazeon Keys II).mp3',
   'raverz-keys-1': '/Soundfonts/U.N. Owen (Raverz Keys I).mp3'
