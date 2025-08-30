@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zayeal Site</title>
+  <link rel="icon" href="Zayeal.ico" type="image/png">
+  <link rel="shortcut icon" href="Zayeal.png" type="image/png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <style>
+    body {
+      background-image: url('background.jpg');
+      /* Ganti dengan path atau URL gambar Anda */
+      background-size: cover;
+      /* Atur ukuran gambar untuk menutupi seluruh latar belakang */
+      background-repeat: no-repeat;
+      /* Hindari pengulangan gambar */
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0;
+      padding: 20px;
+    }
+
+    .video-container iframe {
+      border-radius: 15px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .video-container iframe:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 50px rgba(102, 126, 234, 0.3);
+      border-color: rgba(102, 126, 234, 0.4);
+    }
+
+    @media (max-width: 768px) {
+      .video-container iframe {
+        width: 100%;
+        height: 250px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .video-container iframe {
+        width: 100%;
+        height: 200px;
+      }
+    }
+  </style>
+
+</head>
+
+<body style="text-align: center;">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="soundfonts.html">My Soundfonts</a>
+    <a href="midis.html">MIDIs</a>
+    <a href="aboutme.html">About Me</a>
+  </nav>
+  <h1>Zayeal.mid Site</h1>
+  <div class="site-description">
+    <h2>About This Website</h2>
+    <p>
+      Welcome to the website of Zayeal.mid, the center of high-quality soundfont and MIDI composition collections!
+      This website is a place where i share MIDI and soundfonts that i have created
+    </p>
+
+    <h3>Latest video on my channel</h3>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XG6n6BESYKw?si=Rt9tYRkV8IfoRf2u"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <h3>What You Can Find Discover Here?</h3>
+    <div class="feature-list">
+      <div class="feature-item">
+        <h4>🎹 Soundfonts Collection</h4>
+        <p>Various quality soundfont series that you can find here such as Zack Grand Piano, ZyroX Keys, Zayeal Piano,
+          Lazeon Keys, and Raverz Keys.</p>
+      </div>
+
+      <div class="feature-item">
+        <h4>🎵 Black MIDI Compositions</h4>
+        <p>Great MIDI compositions, including works like "Perpetual Challenge" and others </p>
+      </div>
+
+      <div class="feature-item">
+        <h4>🔄 Regular Updates</h4>
+        <p>The collection is constantly updated with new soundfonts and midi. Come back regularly to find the latest
+          content!</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>Copyright © 2025 Zayeal.mid</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/zayealthewolf?igsh=bWVoZXp0bWl2Zmll" target="_blank" class="social-link">
+          <img src="https://media.discordapp.net/attachments/1058617166125072425/1411243508907642940/R.png?ex=68b3f270&is=68b2a0f0&hm=cb12c10c1de8da48db270d592c79aac691bd8306f87c85a4fb84bbe6cb1c38e8&=&format=webp&quality=lossless&width=648&height=648" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/@Zayeal_mid" target="_blank" class="social-link">
+          <img src="https://media.discordapp.net/attachments/1058617166125072425/1411244286799904799/Untitled19_20250830140033.png?ex=68b3f329&is=68b2a1a9&hm=7981c590412ec3be95f5f89028494fdc074c7f99c7c48a37852b84fe5e852237&=&format=webp&quality=lossless" alt="YouTube" class="social-icon">
+        </a>
+        <a href="https://discord.com/invite/7e3yCCpz4B" target="_blank" class="social-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord" class="social-icon">
+        </a>
+        <a href="https://x.com/ZayealTheWolfy?t=VSvKFe0HpGRrxwSlqDjxdQ&s=09" target="_blank" class="social-link">
+          <img src="https://media.discordapp.net/attachments/1058617166125072425/1411244740682186752/Untitled18_20250830140230.png?ex=68b3f395&is=68b2a215&hm=bd66d0f6f31c775d01704448081fa0c5df21e0b70f61bfafb5b8d51f0222824f&=&format=webp&quality=lossless" alt="X" class="social-icon">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
